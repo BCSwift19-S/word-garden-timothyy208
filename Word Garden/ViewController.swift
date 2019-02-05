@@ -52,6 +52,7 @@ class ViewController: UIViewController {
     func guessALetter() {
         formatUserGuessLabel()
         guessCount += 1
+        //
         
         
         let currentLetterGuessed = guessedLetterField.text!
